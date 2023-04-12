@@ -2,7 +2,7 @@ import React from "react";
 import Coming from "../images/Assets/cominsoon.avif";
 import styled from "styled-components";
 
-export default function Guestlist() {
+export default function GuestTraffic() {
   return (
     <ImageContainer>
       <Img src={Coming} />

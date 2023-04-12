@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Grapht() {
   return (
-    <div>Grapht</div>
+    <h1>Coming Soon...</h1>
   )
 }
