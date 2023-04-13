@@ -12,6 +12,7 @@ import HelpSupport from "./components/screens/HelpSupport";
 import Overview from "./components/screens/Overview";
 import Temperorytraffic from "./Temperorytraffic";
 import ComingSoon from "./components/screens/ComingSoon";
+import Header from "./components/Includes/Header";
 
 function App() {
   return (
@@ -22,8 +23,11 @@ function App() {
           <Nav />
 
           <Routes>
+        
             <Route path="/" element={<Dashboard />}>
-              <Route path="/" element={<Overview/>} />
+              <Route path="header" element={<Header/>} />
+              <Route index element={<Overview/>} />
+              <Route path="overview " element={<Overview/>} />
               <Route path="guestlist" element={<Guestlist/>}/>
               <Route path="temperorytraffic" element={<Temperorytraffic/>} /> 
 
@@ -44,8 +48,5 @@ function App() {
 }
 const MainContainer = styled.div`
   display: flex; 
-
-  
-
 `;
 export default App;
