@@ -11,7 +11,7 @@ export default function Header() {
       <Nav>
         <NavItem
           className={({ isActive }) => (isActive ? "active" : "")}
-          to="/"
+          to="overview"
         >
           Overview
         </NavItem>
@@ -23,7 +23,7 @@ export default function Header() {
         <ProfileIcon src={IconImage} />
       </NotifiactionContainer>
     </Headers>
-    
+    <Outlet/>
     </>
   );
 }

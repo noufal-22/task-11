@@ -7,6 +7,7 @@ import { Outlet } from 'react-router-dom'
 export default function Dashboard() {
   return (
      <Container>
+      {/* <Overview/> */}
       <Header/>
       <Outlet/>
      </Container>
@@ -14,6 +15,4 @@ export default function Dashboard() {
 }
 const Container=styled.div`
   width: 70%;
-  /* background: #455664; */
-
-`
+  `
