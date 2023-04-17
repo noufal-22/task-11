@@ -11,7 +11,6 @@ import Wallet from "./components/screens/Wallet";
 import HelpSupport from "./components/screens/HelpSupport";
 import Overview from "./components/screens/Overview";
 import Temperorytraffic from "./Temperorytraffic";
-import ComingSoon from "./components/screens/ComingSoon";
 import Header from "./components/Includes/Header";
 
 function App() {
@@ -34,7 +33,7 @@ function App() {
                {/* <Route path="*" element={<ComingSoon/>}/>  */}
             </Route>
            <Route path="cateringstatus" element={<CateringStatus/>}/>
-           <Route path="guesttraffic" element={<Guestlist/>} />
+           {/* <Route path="guesttraffic" element={<Guestlist/>} /> */}
            <Route path="gifts" element={<Gifts/>} />
            <Route path="account" element={<Account/>} />
            <Route path="wallet" element={<Wallet/>}/>

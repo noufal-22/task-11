@@ -24,7 +24,7 @@ export default function Nav() {
             <NavItem className={({isActive})=>(isActive ? "active" : "" )}  to="/">
               <NavImage src={DashbordImage} />
 
-              <NavContent  >Dashbord</NavContent>
+              <NavContent>Dashbord</NavContent>
             </NavItem>
             <NavItem to="/cateringStatus">
               <NavImage src={CateringstasuImage} />

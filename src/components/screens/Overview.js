@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Grapht from "./Grapht";
-import Guestlist from "../screens/Guestlist";
+import Graph from "./Graph";
+import Guest from "./Guest";
 function OverView() {
   return (
     <>
+    
       <Container>
         <OverviewtopContainer>
           <ContainerBox>
@@ -61,8 +62,12 @@ function OverView() {
         </OverviewtopContainer>
       </Container>
       <Containertt>
-        <Guestlist />
-        <Grapht />
+       
+         <Guest/>
+     
+       
+         <Graph/>
+   
       </Containertt>
     </>
   );
@@ -72,19 +77,20 @@ const OverviewtopContainer = styled.div`
 `;
 const Containertt = styled.div`
   background-color: #f9f8f8;
-  margin-top: -10px;
-  height: 80vh;
-  height: 60vh;
-  width: 100%;
+  /* margin-top: -10px; */
+  /* height: 80vh; */
+  /* height: 60vh; */
+  /* width: 100%; */
   display: flex;
   @media all and (max-width: 480px) {
     flex-wrap: wrap;
   }
 `;
+
+
 const Container = styled.div`
   background-color: #f9f8f8;
   width: 100%;
-  height: 100%;
   display: flex;
   @media all and (max-width: 769px) {
     ${"" /* height: 90vh; */}

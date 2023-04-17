@@ -11,7 +11,7 @@ export default function Header() {
       <Nav>
         <NavItem
           className={({ isActive }) => (isActive ? "active" : "")}
-          to="overview"
+          to="/"
         >
           Overview
         </NavItem>
@@ -23,13 +23,13 @@ export default function Header() {
         <ProfileIcon src={IconImage} />
       </NotifiactionContainer>
     </Headers>
-    <Outlet/>
+ 
     </>
   );
 }
 
 const Headers = styled.div`
-  width: 80%;
+
   padding: 60px 0px 0px;
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,7 @@ const NavItem = styled(NavLink)`
   list-style: none;
   text-decoration: none;
   &.active{
-    color:#333988;
+    color:black;
 
 
   }
