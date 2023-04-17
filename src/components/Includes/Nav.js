@@ -66,7 +66,7 @@ export default function Nav() {
 
 const Container = styled.div`
   width: 18%;
-  /* background: #540165; */
+  
   padding: 50px ;
   height: 89vh;
 `;
